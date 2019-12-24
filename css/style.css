@@ -1,0 +1,190 @@
+/***************
+
+VARIABLES
+
+****************/
+/***************
+
+ALL
+
+****************/
+html {
+  font-family: 'Rubik', sans-serif; }
+
+body {
+  margin: 0; }
+
+.content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center; }
+
+.content-main {
+  flex: 1;
+  background-color: #95afc0; }
+
+a:hover {
+  border-bottom: 2px solid #95afc0; }
+
+/***************
+
+NAVIGATION SECTION
+
+****************/
+#nav-bar {
+  position: fixed;
+  top: 7rem;
+  left: 0;
+  background-color: #535c68;
+  width: 100%;
+  border-bottom: 5px solid #30336b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1; }
+
+h1 {
+  font-size: 32px;
+  color: #f3fdfd; }
+
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f3fdfd; }
+
+#header-img {
+  width: 100px;
+  height: auto;
+  transform: rotate(0deg);
+  border-radius: 30%; }
+
+/***************
+
+FORM SECTION
+
+****************/
+#form {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column; }
+
+#form-title {
+  margin: 20px auto; }
+
+#email {
+  width: 250px;
+  margin: auto; }
+
+#submit {
+  width: 100px;
+  margin: 20px auto; }
+
+/***************
+
+ALL SECTIONS
+
+****************/
+section {
+  margin-top: 50px;
+  text-align: center; }
+
+h2 {
+  font-size: 30px; }
+
+h2, h3, h4, p {
+  color: #f3fdfd; }
+
+/***************
+
+FEATURES SECTION
+
+****************/
+#features {
+  margin-bottom: 20px; }
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 700px;
+  margin: auto; }
+  .feature__text {
+    display: flex;
+    flex-direction: column;
+    text-align: left; }
+    .feature__text__heading {
+      margin-left: 10px; }
+
+i {
+  font-size: 50px; }
+
+@media (max-width: 600px) {
+  p {
+    font-size: 10px; } }
+
+/***************
+
+HOW IT WORKS
+
+****************/
+#video {
+  width: 640px;
+  height: 480px;
+  z-index: 1000; }
+
+/***************
+
+PRICING SECTION
+
+****************/
+#pricing {
+  margin-bottom: 40px; }
+
+#products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.product {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #535c68;
+  width: 200px;
+  height: 300px;
+  border: 5px solid #30336b;
+  border-radius: 5px; }
+  .product__title {
+    text-align: center; }
+  .product__price {
+    text-align: center; }
+  .product__image {
+    width: 140px;
+    height: auto;
+    transform: rotate(90deg);
+    border-radius: 40%;
+    margin: auto; }
+
+/***************
+
+FOOTER SECTION
+
+****************/
+.footer {
+  background-color: #535c68; }
+  .footer__headers {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%; }
+    .footer__headers__header {
+      font-size: 20px;
+      margin-left: 20px; }
+      .footer__headers__header a {
+        text-decoration: none;
+        color: #f3fdfd; }
+  .footer__info {
+    margin-left: 39%;
+    color: #f3fdfd; }
